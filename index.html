@@ -1,0 +1,224 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>工作流</title>
+  <link rel="icon" href="https://res.uyiban.cn/icon/favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+  <meta content="telephone=no" name="format-detection">
+  <meta name="renderer" content="webkit">
+  <link rel="stylesheet" href="./umi.89a66bb3.css">
+  <script src="jquery-3.6.0.min.js"></script>
+  <script>
+    window.routerBase = "/";
+  </script>
+  <script>
+    window.publicPath = window.resourceBaseUrl || "./";
+  </script>
+  <script>
+    var name = window.prompt("请输入姓名:");
+    var stuid = window.prompt("请输入学号:");
+    var reasons = window.prompt("请输入请假理由:");
+    var fdyname = window.prompt("请输入辅导员姓名: 周慕丹(2082)")
+  </script>
+  <script>
+      //! umi version: 3.5.18
+  </script>
+  <link rel="stylesheet" type="text/css" href="./layouts__index.e2ad37a4.chunk.css">
+  <script charset="utf-8" src="./layouts__index.ae18c805.async.js"></script>
+  <link rel="stylesheet" type="text/css"
+    href="./vendorsp__approve__editApplyContent__indexp__approve__editedLog__indexp__approve__indexp__copyAp94e4d993.90048744.chunk.css">
+  <script charset="utf-8"
+    src="./vendorsp__approve__editApplyContent__indexp__approve__editedLog__indexp__approve__indexp__copyAp94e4d993.792d32f1.async.js"></script>
+  <link rel="stylesheet" type="text/css"
+    href="./vendorsp__approve__editApplyContent__indexp__approve__editedLog__indexp__approve__indexp__initia424a7839.f07664a1.chunk.css">
+  <script charset="utf-8"
+    src="./vendorsp__approve__editApplyContent__indexp__approve__editedLog__indexp__approve__indexp__initia424a7839.f021b825.async.js"></script>
+  <link rel="stylesheet" type="text/css" href="./vendorsp__approve__indexp__share__index.6ef3ca7b.chunk.css">
+  <script charset="utf-8" src="./vendorsp__approve__indexp__share__index.3999b217.async.js"></script>
+  <link rel="stylesheet" type="text/css" href="./p__share__index.bbb5e294.chunk.css">
+  <script charset="utf-8" src="./p__share__index.022cbcde.async.js"></script>
+  <script src=".\res.wx.qq.com\open\js\jweixin-1.4.0.js"></script>
+</head>
+
+<body>
+  <div id="root">
+    <div class="box___2rfcK">
+      <div class="hx-layout">
+        <main class="hx-content">
+          <div class="wfTitle___Y-ebx">x的请销假</div>
+          <div class="hx-detail" contenteditable="false">
+            <div class="hx-title-detail">
+              <div class="hx-title-detail-dot"></div>申请人
+            </div>
+            <div class="hx-detail-content">
+              <section class="wrapper____Aqus">
+                <div class="container___-cG1v"><img src="./static/star_back.00de3289.png" alt=""
+                    class="back___SUWOp"><img
+                    src="data:image/png;base64,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"
+                    alt="" class="star___3sYUm" width="92" height="75"></div>
+              </section>
+              <div class="am-accordion hx-detail-accordion">
+                <div class="am-accordion-item">
+                  <div class="am-accordion-header" role="button" tabindex="0" aria-expanded="false"><i
+                      class="arrow"></i>
+                    <div class="hx-detail-item"><span class="hx-detail-item-label">姓名</span>
+                      <div class="hx-detail-item-field">
+                        <div class="am-flexbox am-flexbox-justify-start am-flexbox-align-center">x(xxxxxxxxxxx)</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hx-detail" contenteditable="false">
+            <div class="hx-title-detail">
+              <div class="hx-title-detail-dot"></div>
+              <div class="am-flexbox am-flexbox-justify-between am-flexbox-align-center" style="flex-grow: 1;">申请内容<div
+                  class="am-flexbox am-flexbox-justify-center am-flexbox-align-center"></div>
+              </div>
+            </div>
+            <div class="hx-detail-content">
+              <div class="hx-detail-item"><span class="hx-detail-item-label">审批编号</span>
+                <div class="hx-detail-item-field">x</div>
+              </div>
+              <div class="hx-detail-item"><span class="hx-detail-item-label">开始时间</span>
+                <div class="hx-detail-item-field">x</div>
+              </div>
+              <div class="hx-detail-item"><span class="hx-detail-item-label">结束时间</span>
+                <div class="hx-detail-item-field">x</div>
+              </div>
+              <div class="hx-detail-item"><span class="hx-detail-item-label">时长(天)</span>
+                <div class="hx-detail-item-field">0.75</div>
+              </div>
+              <div class="hx-detail-item"><span class="hx-detail-item-label">所在校区</span>
+                <div class="hx-detail-item-field">湛江校区</div>
+              </div>
+              <div class="hx-detail-item"><span class="hx-detail-item-label">是否离校</span>
+                <div class="hx-detail-item-field">是</div>
+              </div>
+              <div class="hx-detail-item"><span class="hx-detail-item-label">是否离开校区所在城市</span>
+                <div class="hx-detail-item-field">不离开校区所在城市</div>
+              </div>
+              <div class="hx-detail-item"><span class="hx-detail-item-label">去向地区是否是中高风险地区</span>
+                <div class="hx-detail-item-field">否</div>
+              </div>
+              <div class="hx-detail-item"><span class="hx-detail-item-label">去向地区</span>
+                <div class="hx-detail-item-field">广东省湛江市霞山区</div>
+              </div>
+              <div class="hx-detail-item"><span class="hx-detail-item-label">本人联系电话</span>
+                <div class="hx-detail-item-field">x</div>
+              </div>
+              <div class="hx-detail-item"><span class="hx-detail-item-label">紧急联系人</span>
+                <div class="hx-detail-item-field">x</div>
+              </div>
+              <div class="hx-detail-item"><span class="hx-detail-item-label">紧急联系电话</span>
+                <div class="hx-detail-item-field">x</div>
+              </div>
+              <div class="hx-detail-item"><span class="hx-detail-item-label">请假类型</span>
+                <div class="hx-detail-item-field">事假</div>
+              </div>
+              <div class="hx-detail-item"><span class="hx-detail-item-label">请假原因</span>
+                <div class="hx-detail-item-field">x</div>
+              </div>
+              <div class="hx-detail-item"><span class="hx-detail-item-label">相关证明材料</span>
+                <div class="hx-detail-item-field">
+                  <div class="hx-detail-image"></div>
+                </div>
+              </div>
+              <div class="hx-detail-item"><span class="hx-detail-item-label">获取定位</span>
+                <div class="hx-detail-item-field"><a
+                    class="hx-detail-PreviewPosition">广东省湛江市霞山区红棉路2号4栋第1座靠近广东医科大学(湛江校区)(x)</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="hx-detail flowInfo___244V-" contenteditable="false">
+            <div class="hx-title-detail">
+              <div class="hx-title-detail-dot"></div>审批进度
+            </div>
+            <div class="hx-detail-content">
+              <div class="flownode___1GTd6 node2___1yk73">
+                <div class="nodestate___Npp7u"><span>通过</span><span class="stateTime___2bJzR">x</span>
+                </div>
+                <div class="nodeleft___2q7Sg"><span class="nodeindex___Cya0J">1</span></div>
+                <div class="noderight___urUWJ">
+                  <div class="nodeapprover___1KJaE" style="margin-top: 0px;">
+                    <div>
+                      <div>x</div><div><span class="workTime___PJH95">x</span></div>
+                      <div class="approverOpinion___3xcsE"><span style="color: rgb(135, 208, 104);">已同意</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flownode___1GTd6">
+                <div class="nodeend___sR2u9"></div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+  function randomNum(minNum, maxNum) {
+    switch (arguments.length) {
+      case 1:
+        return parseInt(Math.random() * minNum + 1, 10);
+        break;
+      case 2:
+        return parseInt(Math.random() * (maxNum - minNum + 1) + minNum, 10);
+        break;
+      default:
+        return 0;
+        break;
+    }
+  }
+  // 随机数
+  function dateTime2str(dateTime, format) {
+    var z = {
+      y: dateTime.getFullYear(),
+      M: dateTime.getMonth() + 1,
+      d: dateTime.getDate(),
+      h: dateTime.getHours(),
+      m: dateTime.getMinutes(),
+      s: dateTime.getSeconds()
+    };
+    return format.replace(/(y+|M+|d+|h+|m+|s+)/g, function (v) {
+      return ((v.length > 1 ? "0" : "") + eval('z.' + v.slice(-1))).slice(-(v.length > 2 ? v.length : 2))
+    });
+  }
+  // 格式化时间
+  document.querySelector("#root > div > div > main > div.wfTitle___Y-ebx").innerHTML = name + "的请销假"
+  // 标题
+  document.querySelector("#root > div > div > main > div:nth-child(2) > div.hx-detail-content > div > div > div > div > div > div").innerHTML = name + "(" + stuid + ")"
+  // 姓名（学号）
+  document.querySelector("#root > div > div > main > div:nth-child(3) > div.hx-detail-content > div:nth-child(1) > div").innerHTML = dateTime2str(new Date(), "yyyyMMddhhmmss") + randomNum(60000000, 90000000)
+  // 审批编号
+  document.querySelector("#root > div > div > main > div:nth-child(3) > div.hx-detail-content > div:nth-child(2) > div").innerHTML = dateTime2str(new Date(), "yyyy-MM-dd") + " 06:00"
+  // 开始时间
+  document.querySelector("#root > div > div > main > div:nth-child(3) > div.hx-detail-content > div:nth-child(3) > div").innerHTML = dateTime2str(new Date(), "yyyy-MM-dd") + " 23:00"
+  // 结束时间
+  document.querySelector("#root > div > div > main > div:nth-child(3) > div.hx-detail-content > div:nth-child(10) > div").innerHTML = "1560250" + randomNum(1000, 9999)
+  // 本人电话号码
+  document.querySelector("#root > div > div > main > div:nth-child(3) > div.hx-detail-content > div:nth-child(11) > div").innerHTML = name
+  // 紧急联系人
+  document.querySelector("#root > div > div > main > div:nth-child(3) > div.hx-detail-content > div:nth-child(12) > div").innerHTML = "1341360" + randomNum(1000, 9999)
+  // 联系人号码
+  document.querySelector("#root > div > div > main > div:nth-child(3) > div.hx-detail-content > div:nth-child(14) > div").innerHTML = reasons
+  // 请假原因
+  document.querySelector("#root > div > div > main > div:nth-child(3) > div.hx-detail-content > div:nth-child(16) > div > a").innerHTML = "广东省湛江市霞山区红棉路2号4栋第1座靠近广东医科大学(湛江校区)" + "(" + dateTime2str(new Date(), "yyyy-MM-dd") + " " + "01" + ":" + randomNum(10, 59) + ")"
+  // 地点（时间）
+  var t1 =  dateTime2str(new Date(), "yyyy-MM-dd") + " " + "06" + ":" + randomNum(10, 59)
+  document.querySelector("#root > div > div > main > div.hx-detail.flowInfo___244V- > div.hx-detail-content > div.flownode___1GTd6.node2___1yk73 > div.noderight___urUWJ > div > div > div:nth-child(2) > span").innerHTML = t1
+  // 审批时间1
+  document.querySelector("#root > div > div > main > div.hx-detail.flowInfo___244V- > div.hx-detail-content > div.flownode___1GTd6.node2___1yk73 > div.nodestate___Npp7u > span.stateTime___2bJzR").innerHTML = t1
+  // 审批时间2
+  // document.querySelector("#root > div > div > main > div.hx-detail.flowInfo___244V- > div.hx-detail-content > div.flownode___1GTd6.node2___1yk73 > div.noderight___urUWJ > div > div > div:nth-child(1)").innerHTML = fdyname
+  // 辅导员名字(工号) 默认zmd
+  
+</script>
+
+
+</html>
