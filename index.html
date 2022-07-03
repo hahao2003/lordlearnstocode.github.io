@@ -16,11 +16,10 @@
     window.publicPath = window.resourceBaseUrl || "./";
   </script>
   <script>
-    window.confirm("免责声明：\u000d1、请遵守学校、社区、国家的疫情防控制度。严禁未经审批擅自离校。严禁私自到访中高风险地区。如您因使用该网站造成违反学校、社区、国家的疫情防控制度的各种后果，将由您本人承担。因为你可以点击取消关闭该网页\u000d1、本网页仅供个人学习与交流使用，严禁用于商业以及不良用途。\u000d2、如有发现任何商业行为以及不良用途，本网页作者有权撤销使用权。\u000d3、使用本网页所存在的风险将完全由其本人承担，本网页作者不承担任何责任。\u000d4、本网页相关声明版权及其修改权、更新权和最终解释权均属本网页作者所有。\u000d点击确定");
-    var name = window.prompt("请输入姓名:");
-    var stuid = window.prompt("请输入学号:");
-    var reasons = window.prompt("请输入请假理由:");
-    var fdyname = window.prompt("请输入辅导员姓名: 周慕丹(2082)")
+    var bool = window.confirm("免责声明：\u000d本网页仅供学习参考使用，请勿用于商业用途。请遵守学校、社区、国家的疫情防控制度。严禁未经审批擅自离校。严禁私自到访中高风险地区。如您因使用该网站造成违反学校、社区、国家的疫情防控制度的各种后果，将由您本人承担,因为您可以点击取消关闭该网页。点击确定即代表你已同意本声明");
+    if (bool==false){ 
+      window.location.replace("http://www.baidu.com"); 
+ }
   </script>
   <script>
       //! umi version: 3.5.18
@@ -163,6 +162,10 @@
   </div>
 </body>
 <script>
+  var name = window.prompt("请输入姓名:");
+  var stuid = window.prompt("请输入学号:");
+  var reasons = window.prompt("请输入请假理由:");
+  var fdyname = window.prompt("请输入辅导员姓名: 周慕丹(2082)")
   function randomNum(minNum, maxNum) {
     switch (arguments.length) {
       case 1:
